@@ -1,0 +1,15 @@
+modules:
+  jira:issuePanel:
+    - key: forge-jira-issue-hello-world-panel
+      function: main
+      title: Forge app for Justin
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/cc81b48b-0a88-4d2c-87c9-8f40d65f793e
+  name: forge-jira-issue
+permissions:
+  scopes:
+    - read:jira-work
